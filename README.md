@@ -39,7 +39,7 @@ establishes the predictive core required for future integration with space weath
    - Preliminary accuracy observed during training
    - Identified need for larger and more representative validation datasets
 
-**## Technical Pipeline**
+## Technical Pipeline
 
 ### 1. Data Preprocessing
 Raw solar imagery is preprocessed to improve feature visibility and ensure
@@ -55,12 +55,12 @@ These steps are designed to improve signal clarity while preserving physically
 meaningful solar features.
 
 
-**##2. Model Training**
+##2. Model Training
    - PyTorch-based deep learning model
    - Supervised learning setup for solar flare prediction
    - Initial training on limited validation data
 
-**##3. Evaluation**
+##3. Evaluation
    - Preliminary accuracy observed during training
    - Identified need for larger and more representative validation datasets
 
