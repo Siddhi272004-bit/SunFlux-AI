@@ -88,6 +88,20 @@ model, including the predicted class and associated probability.
 
 ![Prediction Output](assets/PREDICTED_IMAGE.png)
 
+## Training Results 🎯
+
+The model was trained for 10 epochs using a supervised learning setup.
+Training and validation metrics show stable convergence and consistent
+generalization behavior on the available validation split.
+
+- Training accuracy increased from ~78% to ~99%
+- Validation accuracy improved steadily, reaching ~99% by epoch 9
+- Training and validation losses decreased smoothly with no abrupt divergence
+
+These results indicate effective learning on the current dataset while
+highlighting the need for evaluation on larger and more diverse validation
+splits to assess robustness.
+
 
 ## Future Work 🎯
 
