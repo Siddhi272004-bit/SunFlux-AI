@@ -15,7 +15,7 @@ that can serve as a foundational signal for downstream space weather and GMD ris
 
 ## Current Scope 🎯
 
-The current stage of HelioSynapse focuses on:
+The current stage of SunFlux-AI focuses on:
 - Preprocessing solar imagery data
 - Training deep learning models to predict solar flare activity
 - Evaluating model behavior and identifying limitations in generalization
