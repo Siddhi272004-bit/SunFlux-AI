@@ -1,9 +1,9 @@
-**##SunFlux-AI**
+## SunFlux-AI
 
 
 SunFlux-AI is a PyTorch-based deep learning project for predicting solar flare activity from solar imagery. Motivated by the role of solar flares in triggering geomagnetic disturbances (GMDs) affecting power grids and satellites, the project focuses on OpenCV-based preprocessing, model training, and evaluation, with scope for future scaling.
 
-**##Motivation**
+## Motivation
 
 Solar flares are a major driver of geomagnetic disturbances (GMDs), which can disrupt power grids,
 satellite operations, GPS systems, and radio communications. Recent large-scale power outages
@@ -13,7 +13,7 @@ solar observations.
 SunFlux-AI is motivated by this problem: building a reliable solar flare prediction pipeline
 that can serve as a foundational signal for downstream space weather and GMD risk assessment systems.
 
-**##Current Scope**
+## Current Scope
 
 The current stage of HelioSynapse focuses on:
 - Preprocessing solar imagery data
@@ -23,7 +23,7 @@ The current stage of HelioSynapse focuses on:
 While full geomagnetic disturbance modeling is outside the current scope, this project
 establishes the predictive core required for future integration with space weather systems.
 
-**##Pipeline Overview**
+## Pipeline Overview
 
 **1. Data Preprocessing**
    - Min-Max normalization of solar image data
