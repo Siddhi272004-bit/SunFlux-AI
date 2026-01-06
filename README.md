@@ -1,9 +1,9 @@
-## SunFlux-AI
+## SunFlux-AI ☀️🔥
 
 
 SunFlux-AI is a PyTorch-based deep learning project for predicting solar flare activity from solar imagery. Motivated by the role of solar flares in triggering geomagnetic disturbances (GMDs) affecting power grids and satellites, the project focuses on OpenCV-based preprocessing, model training, and evaluation, with scope for future scaling.
 
-## Motivation
+## Motivation 🎯
 
 Solar flares are a major driver of geomagnetic disturbances (GMDs), which can disrupt power grids,
 satellite operations, GPS systems, and radio communications. Recent large-scale power outages
@@ -13,7 +13,7 @@ solar observations.
 SunFlux-AI is motivated by this problem: building a reliable solar flare prediction pipeline
 that can serve as a foundational signal for downstream space weather and GMD risk assessment systems.
 
-## Current Scope
+## Current Scope 🎯
 
 The current stage of HelioSynapse focuses on:
 - Preprocessing solar imagery data
@@ -23,7 +23,7 @@ The current stage of HelioSynapse focuses on:
 While full geomagnetic disturbance modeling is outside the current scope, this project
 establishes the predictive core required for future integration with space weather systems.
 
-## Pipeline Overview
+## Pipeline Overview 🎯
 
 **1. Data Preprocessing**
    - Min-Max normalization of solar image data
@@ -39,7 +39,7 @@ establishes the predictive core required for future integration with space weath
    - Preliminary accuracy observed during training
    - Identified need for larger and more representative validation datasets
 
-## Technical Pipeline
+## Technical Pipeline 🎯
 
 ### 1. Data Preprocessing
 Raw solar imagery is preprocessed to improve feature visibility and ensure
@@ -55,21 +55,21 @@ These steps are designed to improve signal clarity while preserving physically
 meaningful solar features.
 
 
-##2. Model Training
+###2. Model Training
    - PyTorch-based deep learning model
    - Supervised learning setup for solar flare prediction
    - Initial training on limited validation data
 
-##3. Evaluation
+###3. Evaluation
    - Preliminary accuracy observed during training
    - Identified need for larger and more representative validation datasets
 
 
-## Data Preprocessing Examples
+## Data Preprocessing Examples 🎯
 
 Below are examples of raw solar images and their corresponding preprocessed versions after normalization and grayscale conversion.
 
-## Data Preprocessing
+## Data Preprocessing 🎯
 
 Solar images are preprocessed to improve feature visibility and ensure consistent
 inputs for model training. The preprocessing pipeline includes grayscale conversion,
