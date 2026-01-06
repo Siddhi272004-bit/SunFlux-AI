@@ -88,3 +88,12 @@ model, including the predicted class and associated probability.
 
 ![Prediction Output](assets/PREDICTED_IMAGE.png)
 
+
+## Future Work 🎯
+
+- Expand validation on larger and more diverse datasets
+- Improve generalization and robustness of predictions
+- Explore temporal modeling of solar activity
+- Integrate predictions with geomagnetic disturbance (GMD) risk indicators
+- Investigate simulation-driven evaluation for rare extreme solar events
+-Implement the whole project as full-stack web application
