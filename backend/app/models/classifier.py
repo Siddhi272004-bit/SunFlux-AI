@@ -28,8 +28,12 @@ class TinyVGG(nn.Module):
 
         self.classifier = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(hidden_units * final_size * final_size, num_classes)
+            nn.Linear(hidden_units * final_size * final_size, 128),
+            nn.ReLU(inplace=True),
+            nn.Dropout(0.3),
+            nn.Linear(128, num_classes)
         )
+
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         x = self.features(x)
