@@ -17,9 +17,9 @@ import torch
 def run_classification(model,input_tensor):
   # runs binary classification model, returns probability and binary prediction
 
-  model.eval()
+  model.eval() #switch the model to evaluation mode
 
-  with torch.no_grad():
+  with torch.no_grad(): #tells torch to dont compute gradients 
     logits=model(input_tensor) #shape:(1,1)
     logits=logits.squeeze(1)   #shape:(1,)
     probs=torch.sigmoid(logits)
