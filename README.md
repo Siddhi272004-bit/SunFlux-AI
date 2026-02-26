@@ -76,17 +76,17 @@ inputs for model training. The preprocessing pipeline includes grayscale convers
 image resizing, normalization, and CLAHE-based contrast enhancement.
 
 ### Resized & Grayscale Images
-![Resized Images](assets/RESIZED_IMAGES.png)
+![Resized Images](app/assets/RESIZED_IMAGES.png)
 
 ### CLAHE-Enhanced Images
-![CLAHE Preprocessed Images](assets/CLAHE_PREPROCESSED_IMAGE.png)
+![CLAHE Preprocessed Images](app/assets/CLAHE_PREPROCESSED_IMAGE.png)
 
 ## Model Prediction Example
 
 The following image shows an example inference result produced by the trained
 model, including the predicted class and associated probability.
 
-![Prediction Output](assets/PREDICTED_IMAGE.png)
+![Prediction Output](app/assets/PREDICTED_IMAGE.png)
 
 ## Training Results 🎯
 
